@@ -83,20 +83,20 @@ export default function Home() {
                 <div>
                   <button className="projectSeeButton">
                     {" "}
-                    <a href=" https://naoladugna.github.io/naoladugnaexcellerentsolutionsclone/">
+                    <a href="https://naoladugnaexcellerentsolutionsclone.netlify.app/">
                       See Live
                     </a>{" "}
                   </button>
                   <button className="projectSourceButton">
                     {" "}
-                    <a href="https://github.com/NaolAdugna/naoladugnaexcellerentsolutionsclone">
+                    <a href="https://github.com/NaolAdugna/excellerentsolutionsclone">
                       Source Code
                     </a>{" "}
                   </button>
                 </div>
               </div>
               <div className="projectImage">
-                <a href="https://naoladugna.github.io/naoladugnaexcellerentsolutionsclone/">
+                <a href="https://naoladugnaexcellerentsolutionsclone.netlify.app/">
                   <img src={ProjectImage1} alt="ProjectImage" />
                 </a>
               </div>
@@ -121,20 +121,20 @@ export default function Home() {
                 <div>
                   <button className="projectSeeButton">
                     {" "}
-                    <a href=" https://naoladugna.github.io/naoladugnacostplusdrugsclone/">
+                    <a href=" https://naoladugnacostplusdrugsclone.netlify.app/">
                       See Live
                     </a>{" "}
                   </button>
                   <button className="projectSourceButton">
                     {" "}
-                    <a href="https://github.com/NaolAdugna/naoladugnacostplusdrugsclone">
+                    <a href="https://github.com/NaolAdugna/costplusdrugsclone">
                       Source Code
                     </a>{" "}
                   </button>
                 </div>
               </div>
               <div className="projectImage">
-                <a href="https://naoladugna.github.io/naoladugnacostplusdrugsclone/">
+                <a href=" https://naoladugnacostplusdrugsclone.netlify.app/">
                   <img src={ProjectImage2} alt="ProjectImage" />
                 </a>
               </div>
