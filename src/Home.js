@@ -12,7 +12,7 @@ export default function Home() {
         <h1>
           Hi, my name is <strong>Naol Adugna</strong>{" "}
         </h1>
-        <h2>I am Junior Front End Web Developer</h2>
+        <h2>I am Front End Web Developer</h2>
         <div>
           <button>
             <Link
