@@ -12,7 +12,7 @@ export default function Home() {
         <h1>
           Hi, my name is <strong>Naol Adugna</strong>{" "}
         </h1>
-        <h2>I am Front End Web Developer</h2>
+        <h2>I am Web Developer</h2>
         <div>
           <button>
             <Link
@@ -49,15 +49,16 @@ export default function Home() {
               <h2> ABOUT ME </h2>
               <p>
                 {" "}
-                I'm a self-taught web developer with a diverse skill set
-                encompassing HTML, CSS, JavaScript, React, PHP, and Git. Through
-                my relentless pursuit of knowledge and hands-on experience, I
-                have mastered the essentials of web development. From crafting
-                engaging user interfaces with React, I am passionate about
-                creating seamless and visually appealing digital experiences.
-                With a keen eye for detail and a problem-solving mindset, I am
-                ready to collaborate on projects that push the boundaries of
-                what's possible on the web.{" "}
+                My name is Naol Adugna I am computer science undergraduate
+                student and I'm a self-taught web developer with a diverse skill
+                set encompassing HTML, CSS, JavaScript, React, PHP, and Git.
+                Through my relentless pursuit of knowledge and hands-on
+                experience, I have mastered the essentials of web development.
+                From crafting engaging user interfaces with React, I am
+                passionate about creating seamless and visually appealing
+                digital experiences. With a keen eye for detail and a
+                problem-solving mindset, I am ready to collaborate on projects
+                that push the boundaries of what's possible on the web.{" "}
               </p>
             </div>
           </div>
@@ -84,7 +85,7 @@ export default function Home() {
                   <button className="projectSeeButton">
                     {" "}
                     <a href="https://naoladugnaexcellerentsolutionsclone.netlify.app/">
-                      See Live
+                      See Demo
                     </a>{" "}
                   </button>
                   <button className="projectSourceButton">
@@ -122,7 +123,7 @@ export default function Home() {
                   <button className="projectSeeButton">
                     {" "}
                     <a href=" https://naoladugnacostplusdrugsclone.netlify.app/">
-                      See Live
+                      See Demo
                     </a>{" "}
                   </button>
                   <button className="projectSourceButton">

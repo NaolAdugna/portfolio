@@ -16,10 +16,11 @@
     height: 110vh;
     width: 100%;
     padding: 15% 0 10% 5%;
+    text-align: center;
 }
 
 .headerContainer h1,h2{
-    font-size: 64px;
+    font-size: 44px;
     font-weight: 700;
     text-align: start;
 }
