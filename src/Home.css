@@ -15,7 +15,7 @@
 .headerContainer{
     height: 110vh;
     width: 100%;
-    /* padding: 15% 0 10% 5%; */
+    padding: 15% 0 10% 5%;
     text-align: center;
 }
 
@@ -29,12 +29,12 @@
     color: var(--maincolor);
 }
 .headerContainer button{
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
     font-weight: 700;
     margin: 16px 20px;
     position: relative;
-    padding: 10px 20px ;
+    padding: 8px 14px ;
     color: var(--maincolor);
     background-color: white;
     transition: color 0.4s linear;
