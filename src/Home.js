@@ -148,7 +148,7 @@ export default function Home() {
             <h3>CONTACT</h3>
             <h4>Would wanna to reach out? awesome!</h4>
             <p>Email:naoladugna4747@gmail.com</p>
-            <p>Phone Number:+251947102035</p>
+            <p>Phone Number:+251 947102035</p>
             <span>
               <a href="https://github.com/NaolAdugna" title="github">
                 <svg

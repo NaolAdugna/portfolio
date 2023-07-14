@@ -66,8 +66,8 @@
 #about{
     position: relative;
     isolation: isolate;
-    /* margin-top: 5%; */
-    padding-top: 5%;
+    margin-top: 5%;
+    /* padding-top: 5%; */
 }
 
 .aboutContainer{
@@ -107,7 +107,7 @@
 
 }
 .aboutContainer p{
-    font-size: 20px;
+    font-size: 18px;
     word-spacing: 2px;
     padding: 16px 24px 0 24px;
 }
@@ -163,12 +163,12 @@
 }
 
 .projectData button{
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
     font-weight: 700;
     margin: 24px 24px;
     position: relative;
-    padding: 10px 20px ;
+    padding: 8px 16px ;
     color: var(--maincolor);
     background-color: white;
     transition: color 0.4s linear;
