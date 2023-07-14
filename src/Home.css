@@ -73,7 +73,7 @@
 .aboutContainer{
     height: 90vh;
     display: flex;
-    align-items: safe;
+    align-items: start;
     padding: 2% 10% 0 15%;
     position: relative;
     isolation: isolate;
