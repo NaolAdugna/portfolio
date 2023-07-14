@@ -74,7 +74,7 @@
     height: 90vh;
     display: flex;
     align-items: start;
-    padding: 2% 10% 0 15%;
+    padding: 2% 10% 2% 15%;
     position: relative;
     isolation: isolate;
 }
