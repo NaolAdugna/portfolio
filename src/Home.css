@@ -15,14 +15,14 @@
 .headerContainer{
     height: 110vh;
     width: 100%;
-    padding: 15% 0 10% 5%;
+    /* padding: 15% 0 10% 5%; */
     text-align: center;
 }
 
 .headerContainer h1,h2{
     font-size: 44px;
     font-weight: 700;
-    text-align: start;
+    text-align: center;
 }
 
 .headerContainer strong{
@@ -32,7 +32,7 @@
     font-size: 20px;
     cursor: pointer;
     font-weight: 700;
-    margin: 24px 24px;
+    margin: 16px 20px;
     position: relative;
     padding: 10px 20px ;
     color: var(--maincolor);
