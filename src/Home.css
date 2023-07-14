@@ -98,7 +98,7 @@
     position:relative;
     align-items: start;
     flex-direction: column;
-    margin-top: 24px;
+    /* margin-top: 24px; */
 }
 .aboutText h2{
     margin: auto;
@@ -108,7 +108,7 @@
 .aboutContainer p{
     font-size: 18px;
     word-spacing: 2px;
-    padding: 16px 24px 40px 24px;
+    padding: 0 24px 40px 24px;
 }
 
 #projects{
