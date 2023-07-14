@@ -87,7 +87,7 @@
     background:linear-gradient(45deg,#02aeb0,#00c6ad);
 }
 .aboutContainer img{
-    width: 40%;
+    width: 35%;
     margin: 0 64px 0 0;
     object-fit: contain;
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,.3));
@@ -96,7 +96,7 @@
     color: #fff;
     display: flex;
     position:relative;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     flex-direction: column;
     margin-top: 24px;
 }
