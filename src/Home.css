@@ -98,7 +98,7 @@
     position:relative;
     align-items: flex-start;
     flex-direction: column;
-    margin-top: 24px;
+    /* margin-top: 24px; */
 }
 .aboutText h2{
     margin: auto;
