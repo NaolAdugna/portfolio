@@ -82,22 +82,31 @@ export default function Home() {
                   delivering exceptional web solutions.
                 </p>
                 <div>
-                  <button className="projectSeeButton">
+                  <button className="projectSeeButton projectonedemo">
                     {" "}
-                    <a href="https://naoladugnaexcellerentsolutionsclone.netlify.app/">
+                    <a
+                      href="https://naoladugnaexcellerentsolutionsclone.netlify.app/"
+                      target="_blank"
+                    >
                       See Demo
                     </a>{" "}
                   </button>
                   <button className="projectSourceButton">
                     {" "}
-                    <a href="https://github.com/NaolAdugna/excellerentsolutionsclone">
+                    <a
+                      href="https://github.com/NaolAdugna/excellerentsolutionsclone"
+                      target="_blank"
+                    >
                       Source Code
                     </a>{" "}
                   </button>
                 </div>
               </div>
               <div className="projectImage">
-                <a href="https://naoladugnaexcellerentsolutionsclone.netlify.app/">
+                <a
+                  href="https://naoladugnaexcellerentsolutionsclone.netlify.app/"
+                  target="_blank"
+                >
                   <img src={ProjectImage1} alt="ProjectImage" />
                 </a>
               </div>
@@ -122,20 +131,29 @@ export default function Home() {
                 <div>
                   <button className="projectSeeButton">
                     {" "}
-                    <a href=" https://naoladugnacostplusdrugsclone.netlify.app/">
+                    <a
+                      href=" https://naoladugnacostplusdrugsclone.netlify.app/"
+                      target="_blank"
+                    >
                       See Demo
                     </a>{" "}
                   </button>
                   <button className="projectSourceButton">
                     {" "}
-                    <a href="https://github.com/NaolAdugna/costplusdrugsclone">
+                    <a
+                      href="https://github.com/NaolAdugna/costplusdrugsclone"
+                      target="_blank"
+                    >
                       Source Code
                     </a>{" "}
                   </button>
                 </div>
               </div>
               <div className="projectImage">
-                <a href=" https://naoladugnacostplusdrugsclone.netlify.app/">
+                <a
+                  href=" https://naoladugnacostplusdrugsclone.netlify.app/"
+                  target="_blank"
+                >
                   <img src={ProjectImage2} alt="ProjectImage" />
                 </a>
               </div>
