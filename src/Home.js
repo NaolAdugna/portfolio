@@ -83,7 +83,7 @@ export default function Home() {
                   between among other users.
                   <br/>
                   <br/>
-                 <span style={{color:'#00c6ad'}}>I did not hosted this project yet. But there is the source code below!</span> 
+                 <span style={{color:'#00c6ad',fontWeight:'bolder'}} >I did not hosted this project yet. But there is the source code below!</span> 
                 </p>
                 <div>
                   {/* <button className="projectSeeButton projectonedemo">
