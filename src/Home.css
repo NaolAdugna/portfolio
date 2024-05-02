@@ -153,13 +153,13 @@
     border: 1px solid rgba(0,0,0,.2);
     /* background-color: #00c6ad; */
 }
-.projectData img{
+.ProjectImage{
     margin: 0;
     width: 100%;
     object-fit: cover;
     transition: 300ms ease-in-out;
 }
-.projectData img:hover{
+.ProjectImage:hover{
     scale: 1.02;
     cursor: pointer;
 }
@@ -175,7 +175,9 @@
     padding: 16px 32px;
     color: rgba(0,0,0,.8);
 }
-
+.projectData p span{
+    text-decoration: underline;
+}
 .projectData button{
     font-size: 18px;
     cursor: pointer;
@@ -249,7 +251,39 @@
     font-weight: 600;
 }
 
+.popup-media{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    height: 100%;
+}
+#popup-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+    border: 1px solid gray;
+}
+.popup-media span{
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    font-size: 60px;
+    font-weight: bolder;
+    z-index: 100;
+    cursor: pointer;
+    color: white;
+    user-select: none;
 
+
+}
 @media (min-width:891px) and (max-width:1024px){
 
     .headerContainer{

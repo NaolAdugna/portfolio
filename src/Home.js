@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import PorfolioImage from "./naol.png";
 import ProjectImage1 from "./excellerentSolutionsLandingPage.png";
 import ProjectImage2 from "./costPlusDrugLandingPage.png";
+import HMSImage from "./hms doctor dashboard.png";
 import "./Home.css";
 import { NavLink } from "react-router-dom";
 
 export default function Home() {
+  const [imageFile, setImageFile] = useState(null);
   return (
     <div className="homeContainer">
       <header className="headerContainer">
@@ -67,6 +69,57 @@ export default function Home() {
             <h1>PROJECTS</h1>
             <div className="projectData">
               <div className="projectDetail">
+                <h3>Hospital Management System</h3>
+                <p>
+                  This web based system is developed using React js, Express js,
+                  Node js, MYSQL and CSS. This system has 6 actor users,
+                  <span>Admin</span>, <span>Doctor</span>,{" "}
+                  <span>Reception</span>, <span>Labratory Technician</span>,{" "}
+                  <span> Pharmacist</span>, and <span>Paitient</span>. It uses
+                  JSON Web Token for authenticating users with forgot password
+                  generating OTP and sending to there email address, and zustand
+                  for state management. There is also Gemini AI for users to
+                  interact with it, and also has support Chat, sending files
+                  between among other users.
+                </p>
+                <div>
+                  {/* <button className="projectSeeButton projectonedemo">
+                    {" "}
+                    <NavLink
+                      to="https://naoladugnaexcellerentsolutionsclone.netlify.app/"
+                      target="_blank"
+                    >
+                      {" "}
+                      See Demo
+                    </NavLink>
+                  </button> */}
+                  <button className="projectSourceButton">
+                    {" "}
+                    <NavLink
+                      to="https://github.com/NaolAdugna/HospitalManagementSystem"
+                      target="_blank"
+                    >
+                      Source Code
+                    </NavLink>{" "}
+                  </button>
+                </div>
+              </div>
+              <div className="projectImage">
+                {/* <NavLink
+                  to="https://naoladugnaexcellerentsolutionsclone.netlify.app/"
+                  target="_blank"
+                > */}{" "}
+                <img
+                  src={HMSImage}
+                  alt="ProjectImage"
+                  onClick={() => setImageFile(HMSImage)}
+                  className="ProjectImage"
+                />
+                {/* </NavLink> */}
+              </div>
+            </div>
+            <div className="projectData">
+              <div className="projectDetail">
                 <h3>Execellerent Solutions Clone</h3>
                 <p>
                   This clone website was done using React js and CSS and the
@@ -113,7 +166,11 @@ export default function Home() {
                   target="_blank"
                 >
                   {" "}
-                  <img src={ProjectImage1} alt="ProjectImage" />
+                  <img
+                    src={ProjectImage1}
+                    alt="ProjectImage"
+                    className="ProjectImage"
+                  />
                 </NavLink>
               </div>
             </div>
@@ -160,7 +217,11 @@ export default function Home() {
                   to="https://naoladugnacostplusdrugsclone.netlify.app/"
                   target="_blank"
                 >
-                  <img src={ProjectImage2} alt="ProjectImage" />
+                  <img
+                    src={ProjectImage2}
+                    alt="ProjectImage"
+                    className="ProjectImage"
+                  />
                 </NavLink>
               </div>
             </div>
@@ -204,6 +265,13 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <div
+        className="popup-media"
+        style={{ display: imageFile ? "block" : "none" }}
+      >
+        <span onClick={() => setImageFile(null)}>&times;</span>
+        <img src={imageFile} alt="selectedImage" id="popup-image" />
+      </div>
     </div>
   );
 }
