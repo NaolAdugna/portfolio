@@ -82,7 +82,8 @@ export default function Home() {
                   interact with it, and also has support Chat, sending files
                   between among other users.
                   <br/>
-                  I did not hosted this project yet. There is the Source Code below!
+                  <br/>
+                 <span style={{color:'#30b8f0'}}>I did not hosted this project yet. There is the Source Code below!</span> 
                 </p>
                 <div>
                   {/* <button className="projectSeeButton projectonedemo">
