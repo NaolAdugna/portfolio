@@ -81,6 +81,8 @@ export default function Home() {
                   for state management. There is also Gemini AI for users to
                   interact with it, and also has support Chat, sending files
                   between among other users.
+                  <br/>
+                  I did not hosted this project yet. There is the Source Code below!
                 </p>
                 <div>
                   {/* <button className="projectSeeButton projectonedemo">
