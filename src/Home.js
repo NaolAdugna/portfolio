@@ -81,21 +81,19 @@ export default function Home() {
                   for state management. There is also Gemini AI for users to
                   interact with it, and also has support Chat, sending files
                   between among other users.
-                  <br/>
-                  <br/>
-                 <span style={{color:'#00c6ad',fontWeight:'bolder'}} >I did not hosted this project yet. But there is the source code below!</span> 
+                  
                 </p>
                 <div>
-                  {/* <button className="projectSeeButton projectonedemo">
+                  <button className="projectSeeButton projectonedemo">
                     {" "}
                     <NavLink
-                      to="https://naoladugnaexcellerentsolutionsclone.netlify.app/"
+                      to="https://hmsna.netlify.app/"
                       target="_blank"
                     >
                       {" "}
                       See Demo
                     </NavLink>
-                  </button> */}
+                  </button>
                   <button className="projectSourceButton">
                     {" "}
                     <NavLink
