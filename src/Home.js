@@ -8,7 +8,6 @@ import "./Home.css";
 import { NavLink } from "react-router-dom";
 
 export default function Home() {
-  const [imageFile, setImageFile] = useState(null);
   return (
     <div className="homeContainer">
       <header className="headerContainer">
@@ -106,17 +105,17 @@ export default function Home() {
                 </div>
               </div>
               <div className="projectImage">
-                {/* <NavLink
-                  to="https://naoladugnaexcellerentsolutionsclone.netlify.app/"
+                 <NavLink
+                  to="https://hmsna.netlify.app/"
                   target="_blank"
-                > */}{" "}
+                > {" "} 
                 <img
                   src={HMSImage}
                   alt="ProjectImage"
-                  onClick={() => setImageFile(HMSImage)}
+                 
                   className="ProjectImage"
                 />
-                {/* </NavLink> */}
+                </NavLink>
               </div>
             </div>
             <div className="projectData">
@@ -266,13 +265,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <div
-        className="popup-media"
-        style={{ display: imageFile ? "block" : "none" }}
-      >
-        <span onClick={() => setImageFile(null)}>&times;</span>
-        <img src={imageFile} alt="selectedImage" id="popup-image" />
-      </div>
+      
     </div>
   );
 }
