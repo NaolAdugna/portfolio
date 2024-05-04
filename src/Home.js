@@ -80,6 +80,9 @@ export default function Home() {
                   for state management. There is also Gemini AI for users to
                   interact with it, and also has support Chat, sending files
                   between among other users.
+                    <br/>
+                    <br/>
+                    <span>Backend is not hosted yet!</span>
                   
                 </p>
                 <div>
