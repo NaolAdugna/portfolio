@@ -89,7 +89,7 @@ export default function Home() {
                   <button className="projectSeeButton projectonedemo">
                     {" "}
                     <NavLink
-                      to="https://hmsna.netlify.app/"
+                      to="https://gebretsadikhms.netlify.app/"
                       target="_blank"
                     >
                       {" "}
