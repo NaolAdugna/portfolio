@@ -109,7 +109,7 @@ export default function Home() {
               </div>
               <div className="projectImage">
                  <NavLink
-                  to="https://hmsna.netlify.app/"
+                  to="https://gebretsadikhms.netlify.app/"
                   target="_blank"
                 > {" "} 
                 <img
